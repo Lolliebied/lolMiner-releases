@@ -21,4 +21,4 @@ tuning for perfect results.
 
 As for the --4g-alloc-size all cards that are equipped with more then 4G memory will ignore this parameter. When providing a list of card individual values do not skip those cards that have more then 4G of memory (just set them to 0). 
 
-The tune can be deactivated by setting it to 0. Note that each card may need an individual tuning, so it is best to enable it card by card. Values that are set too high will reduce the speed measurably. Use 0 in case the rig shows uncommon instabilities with the tune enabled.
+The tune can be deactivated by setting it to 0. Note that each card may need an individual tuning, so it is best to enable it card by card. Values that are set too high will reduce the speed measurably. Use 0 in case the rig shows uncommon instabilities with the tune enabled .
