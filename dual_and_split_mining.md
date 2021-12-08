@@ -13,7 +13,7 @@ b) Add the parameter --dualmode zil --dualstratum *ETHWALLET*.*ETHWORKER*@*ETHPO
 
 Now the miner will create both connections on startup, but will mine the ETH (or ETC) shares on the extra connection, which can be different to the first one, which will only be used when mining ZIL. Note that the parameter will automatically enabling the ZIL cache mode on your 6 & 8G cards. 
 
-### Use case B: Mine ETH on 8G cards while mining ETC on 4G cards
+### Use case B: Mine ETH on 8G cards while mining ETC on 4G cards 
 
 Usually miners allow using only one algorithm at a time. With lolMiner 1.20 the miner starts supporting to create two connections to your favorite pools and mine two algorithms within the same miner instance. Concretely this mode was build to mine ETCHASH on some GPUS while others stay on ETH. 
 
